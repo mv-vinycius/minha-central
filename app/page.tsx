@@ -80,6 +80,19 @@ export default function Home() {
                   Ainda não existem tarefas cadastradas.
                 </p>
               </div>
+
+              <div className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
+              <div className="text-2xl">📅</div>
+
+                <h2 className="mt-3 text-lg font-semibold text-zinc-900 dark:text-white">
+                  Próximo compromisso
+                </h2>
+
+                <p className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
+                  Nenhum compromisso cadastrado.
+                </p>
+              </div>
+              
             </section>
           </div>
         </main>
